@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/output.css">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Montserrat Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+   <!--font-family: 'Montserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Average Sans Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
+    <!--font-family: 'Average Sans', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Rubik Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <!--font-family: 'Rubik', sans-serif;-->
+    <title>Baja Moto Works</title>
+</head>
+<body class="bg-platinum">
+    <div id="mainGrid" class="grid grid-cols-4">
+        <nav id="navbar" class="col-span-4 bg-customOrange">
+            <div class="md:flex md:justify-between items-center md:mx-10">
+                <div class="hidden md:flex md:flex-col ">
+                    <ul id="navListTwo" class="text-2xl">
+                        <li class= "py-3">Service & Repairs</li>
+                        <li class="py-3">Parts & Accesories</li>
+                        <li id="seeWorkingHoursOne" class="hover:cursor-pointer hover:decoration-transparent decoration-black underline py-3">See Our Working Hours</li>
+                    </ul>
+                </div>
+                <div class="md:justify-start md:m-3 flex justify-center hover:cursor-pointer mx-auto my-3 md:h-44 h-64 w-fit">
+                    <img src="./img/bajaMotoWorksNoBg.png">
+                </div>
+                <div class="flex justify-end items-center mx-1">
+                    <span id="translate" class="md:text-2xl text-center mx-1 text-xl hover:cursor-pointer decoration-transparent hover:decoration-customOrange underline">EN/SP<ion-icon class="-my-1" name="language-outline"></ion-icon></span>
+                    <button id="navBtn">
+                    <span id="navIconCont" class="md:text-6xl text-4xl">
+                        <ion-icon id="navMenu" name="menu-outline"></ion-icon>
+                        <ion-icon id="navMenuClose" name="close-outline" class="hidden"></ion-icon>
+                    </span>
+                </button>
+                </div>
+
+                <ul id="navList" class="flex flex-col transition duration-1000 items-center absolute md:inset-1 z-10 md:text-black w-full h-fit md:w-1/4 md:my-48 md:ml-auto text-black bg-customOrange opacity-0 md:translate-x-0 md:-translate-y-96 md:-top-5 -translate-x-96 md:drop-shadow-2xl shadow-lg shadow-black">
+                    <li class="md:text-2xl text-xl md:my-0 md:mx-3 my-1 mx-0 md:py-5">
+                        <a href="#" class="hover:transition hover:underline decoration-customOrange hover:ease-in delay-75">Home</a>
+                    </li>
+                    <li class="md:text-2xl text-xl md:my-0 md:mx-3 my-1 mx-0 md:py-5">
+                        <a href="#sectionOneMainHeader" class="hover:transition hover:underline decoration-customOrange hover:ease-in delay-75">About Us</a>
+                    </li>
+                    <li class="md:text-2xl text-xl md:my-0 md:mx-3 my-1 mx-0 md:py-5">
+                        <a href="#sectionTwoMainHeader" class="hover:transition hover:underline decoration-customOrange ease-in-out delay-75">Services</a>
+                    </li>
+                    <li class="md:text-2xl text-xl md:my-0 md:mx-3 my-1 mx-0 md:py-5">
+                        <a href="#sectionThreeMainHeader"class="hover:transition hover:underline decoration-customOrange ease-in-out delay-75">Contact</a>
+                    </li>
+                    <li id="seeWorkingHoursTwo" class="md:text-2xl text-xl md:my-0 md:mx-3 my-1 mx-0 md:py-5 md:hidden">
+                        <a class="hover:cursor-pointer hover:transition hover:underline decoration-customOrange hover:ease-in-out delay-75">Working Hours</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="banner" class="col-span-4">
+            <header id="bannerHeader" class="flex justify-center items-center text-center md:text-7xl text-6xl text-white h-full md:w-full w-fit">
+                <h1>Parts and Motorcycle Repair</h1>
+            </header>
+        </section>
+
+        <section class="col-span-4 bg-customOrange">
+            <header id="sectionOneMainHeader" class="text-center md:text-5xl text-4xl my-3">
+                <h1>Baja Moto Works</h1>
+             </header>
+            <div class="flex md:justify-between md:flex-row flex-col">
+                <section id="sectionOneInfo" class="md:w-1/2 h-fit text-black md:mx-3 mx-1">
+                    <h1 id="sectionOneHeader" class="md:text-4xl text-3xl my-3">Why Baja Moto Works?</h1>
+                    <p id="paraOne" class="md:text-3xl text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Optio rem saepe nostrum molestias iste temporibus ducimus nobis voluptatum sunt ullam, accusamus eum quod vel tempore nam nisi 
+                        aliquid reiciendis deserunt. Provident placeat magnam fugiat fuga sed ab et.
+                         Libero veniam aut quo eaque. Architecto, ad aspernatur commodi illo tenetur ipsa.</p>
+                </section>
+            <div id="containerOne" class="md:w-1/2 md:m-3 my-3 h-fit">
+                    <img src="./img/placeholder1.jpg">
+                </div>
+            </div>
+            </section>
+
+        <section id="sectionTwo" class="col-span-4 bg-lightGray">
+            <div class="flex md:justify-between md:flex-row flex-col my-3">
+                    <div id="containerTwo" class="md:w-1/2 md:m-3 my-3 h-fit md:block hidden">
+                        <img src="./img/placeholder2.jpg">
+                    </div>
+
+                    <section id="sectionTwoInfo" class="md:w-1/2 h-fit text-black md:mx-3 mx-1">
+                        <h1 id="sectionTwoHeader" class="md:text-4xl text-3xl my-3">About Us</h1>
+                        <p id="paraTwo" class="md:text-3xl text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Necessitatibus, culpa ratione. Officiis atque voluptas blanditiis iure id laboriosam at quo nemo quos nulla, 
+                            amet vero commodi a voluptates dolorum reprehenderit? Dicta error labore expedita autem alias! Voluptate officiis soluta officia? 
+                            Possimus totam eligendi laudantium, ad sed excepturi itaque porro temporibus.
+                        </p>
+                    </section>
+
+                    <div class="md:w-1/2 md:m-3 my-3 h-fit  md:hidden block">
+                        <img src="./img/placeholder2.jpg">
+                    </div>
+            </div>
+        </section>
+
+        <section id="sectionThree" class="col-span-4 bg-customOrange">
+            <div class="flex md:justify-between md:flex-row flex-col my-3">
+                    <section id="sectionThreeInfo" class="md:w-1/2 h-fit text-black md:mx-3 mx-1">
+                        <h1 id="sectionThreeHeader" class="md:text-4xl text-3xl my-3">Our Team</h1>
+                        <p id="paraThree" class="md:text-3xl text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Temporibus soluta sed eaque assumenda atque, odit veritatis ut corrupti placeat ducimus distinctio.
+                             Dolores facilis impedit deleniti? Vitae, dolores? Unde, consequatur ad.</p>
+                    </section>
+
+                    <div id="containerThree" class="md:w-1/2 md:m-3 my-3 h-fit">
+                        <img src="./img/placeholder3.jpg">
+                    </div>
+            </div>
+        </section>
+
+        <section id="sectionFour" class="col-span-4 bg-lightGray">
+            <header id="sectionTwoMainHeader" class="text-center md:text-5xl text-4xl my-3">
+                <h1>Services</h1>
+            </header>
+            <div class="flex md:justify-between md:flex-row flex-col my-3">
+                    <div id="containerFour" class="md:w-1/2 h-fit md:m-3 my-5 md:block hidden">
+                        <img src="./img/moto1-min-darker.jpg">
+                    </div>
+
+                    <section id="sectionFourInfo" class="md:w-1/2 h-fit text-black md:mx-3 mx-1">
+                        <h1 id="sectionFourHeader" class="md:text-4xl text-2xl my-3">Orders</h1>
+                        <p id="paraFour" class="md:text-3xl text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sed placeat recusandae ipsa excepturi necessitatibus tenetur sint! Voluptatum repudiandae hic corrupti sunt quaerat, 
+                            aut ab, esse modi reiciendis distinctio nisi pariatur doloremque deleniti earum perspiciatis adipisci? 
+                            Velit dolore est quidem iure ullam quia. Doloribus officiis optio cum quod dolorem, blanditiis possimus?</p>
+                    </section>
+
+                    <div class="md:w-1/2 h-fit md:m-3 my-5 md:hidden block">
+                        <img src="./img/moto1-min-darker.jpg">
+                    </div> 
+                </div>
+                </section>
+
+                <section id="sectionFive" class="col-span-4 bg-lightGray">
+                        <div class="flex md:justify-between md:flex-row flex-col my-3">
+                            <div id="containerFive" class="md:w-1/2 h-fit md:m-3 my-5 md:block hidden">
+                                <img src="./img/moto2-min-darker.jpg">
+                            </div>        
+                                <section id="sectionFiveInfo" class="md:w-1/2 h-fit text-black md:mx-3 mx-1">
+                                    <h1 id="sectionFiveHeader" class="md:text-4xl text-2xl my-3">Repairs</h1>
+                                    <p id="paraFive" class="md:text-3xl text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                         Accusantium tempore deleniti eius saepe at quae quisquam atque quidem quas cum totam facilis fuga vitae, 
+                                         corporis sint! Neque error temporibus porro expedita voluptates ab veniam, odio facere explicabo excepturi 
+                                        iusto quod ad perspiciatis nam sint illum labore harum ipsam officia illo.
+                                    </p>
+                                </section>
+                                <div class="md:w-1/2 h-fit md:m-3 my-5 md:hidden block">
+                                    <img src="./img/moto2-min-darker.jpg">
+                                </div>
+                        </div>
+                    </section>
+
+                    <section id="sectionSix" class="col-span-4 bg-lightGray">
+                        <div class="flex md:justify-between md:flex-row flex-col my-3">
+                            <div id="containerSix" class="md:w-1/2 h-fit md:m-3 my-5 md:block hidden">
+                                <img src="./img/moto3-min-darker.jpg">
+                            </div>        
+                                <section id="sectionSixInfo" class="md:w-1/2 h-fit text-black md:mx-3 mx-1">
+                                    <h1 id="sectionSixHeader" class="md:text-4xl text-2xl my-3">Parts and Orders</h1>
+                                    <p id="paraSix" class="md:text-3xl text-xl">Lorem ipsum dolor sit, amet consectetur
+                                         adipisicing elit. Odit quis mollitia, voluptatibus neque cum itaque illo, eos quo accusantium impedit 
+                                         sequi id possimus praesentium nemo ducimus eveniet labore distinctio corrupti modi pariatur et ex autem saepe aliquam?
+                                         Sed pariatur labore animi inventore quisquam. Ullam quo modi quisquam cupiditate atque culpa.</p>
+                                </section>
+                                <div class="md:w-1/2 h-fit md:m-3 my-5 md:hidden block">
+                                    <img src="./img/moto3-min-darker.jpg">
+                                </div>
+                        </div>
+                    </section>
+                    <section id="sectionFour" class="col-span-4 bg-customOrange">
+                        <header id="sectionThreeMainHeader" class="text-center md:text-5xl text-4xl my-3">
+                            <h1>Contact</h1>
+                        </header>
+
+                        <div class="flex justify-center items-center flex-col my-5">
+                                <section id="sectionFourInfo" class="h-fit text-black mx-auto text-center">
+                                    <h1 id="sectionFourHeader" class="md:text-4xl text-2xl my-3">Get in Contact:</h1>
+                                    <h2 id="phoneNumbersOne" class="md:text-2xl text-xl my-1">(000) 000 0000 </h2>
+                                    <h2 id="phoneNumbersTwo" class="md:text-2xl text-xl my-1">(000) 000 0000</h2>
+                                    <h2 id="phoneNumberThree" class="md:text-2xl text-xl my-1">USA 000 00 (000)0000000</h2>
+                                    <h2 id="emailOne" class="md:text-2xl text-xl my-1">examplemail@mail.com</h2>
+                                </section>
+
+                                <section id="sectionFourInfo" class="h-fit text-black mx-auto text-center my-5">
+                                    <h1 id="sectionFourHeader" class="md:text-4xl text-2xl my-3">Follow Us on Social:</h1>
+                                   
+                                    <div class="justify-center text-5xl mx-3">
+                                        <span id="socialMediaLogo1" class="my-3 mx-auto hover:cursor-pointer">
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                        </span>
+                                    </div>
+                                </section>
+                        </div>
+
+                        <div class="flex justify-center items-center">
+                            <span class="md:text-2xl text-xl my-1">Copyright © 2016 Baja Moto Works - All Rights Reserved.</span>
+                        </div>
+                        <section>
+                            <header id="sectionSevenHeader" class="flex justify-center text-center md:text-4xl text-3xl mx-auto my-5">
+                                <h1>Directions:</h1>
+                            </header>
+                            <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d374235.08553546417!2d-154.77788565917626!3d42.8789308738416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaps!5e0!3m2!1ses-419!2smx!4v1671185793916!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                <div class="flex justify-between">
+                            </section>
+                        </section>
+                        </div>
+                       
+                        <section id="workingHours" class="bg-black bg-opacity-50 h-full w-full fixed z-20 inset-0 flex justify-center items-center opacity-0 -translate-y-full">
+                            <div class="bg-white w-3/6 h-3/6">
+                                <div class="flex justify-between">
+                                    <header id="workingHoursHeader" class="md:text-3xl text-2xl flex justify-center text-center mx-auto my-3">
+                                        <h1>Working Hours</h1>
+                                    </header>
+                                    <span id="exitWorkingHours" class="md:text-4xl text-3xl hover:cursor-pointer">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </span>
+                                </div>
+                                <div id="workHoursListContainer" class="flex justify-evenly items-center m-auto">
+                                    <ul>
+                                        <li class="workHoursList py-1">Sunday</li>
+                                        <li class="workHoursList py-1">Monday</li>
+                                        <li class="workHoursList py-1">Tuesday</li>
+                                        <li class="workHoursList py-1">Wednesday</li>
+                                        <li class="workHoursList py-1">Thursday</li>
+                                        <li class="workHoursList py-1">Fiday</li>
+                                        <li class="workHoursList py-1">Saturday</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="workHoursTime py-1">5AM-1PM</li>
+                                        <li class="workHoursTime py-1">5AM-1PM</li>
+                                        <li class="workHoursTime py-1">5AM-1PM</li>
+                                        <li class="workHoursTime py-1">5AM-1PM</li>
+                                        <li class="workHoursTime py-1">5AM-1PM</li>
+                                        <li class="workHoursTime py-1">5AM-1PM</li>
+                                        <li class="workHoursTime py-1">5AM-1PM</li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </section>
+
+    <script src="my.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

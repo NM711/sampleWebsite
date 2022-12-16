@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#banner {
+    background-image: url('/img/moto1-min-darker.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    filter: grayscale(50%)
+}
+
+.navMenuAnimation {
+    opacity: 1;
+    background-color: #2D3142;
+    color: #FFFF;
+    transition: 1s;
+    border-top: 1px solid #FFFF;
+    transform: translateX(0px);
+    transform: translateY(0px);
+}
+
+@media (min-width: 768px){
+    .navMenuAnimation {
+        top: 0;
+    }
+}
+
+.navbarAnimation{
+    transition: 1s ease-in-out;
+    color: #FFFF;
+    background-color: #2D3142;
+}
+
+#navList, #navListTwo, #sectionOneHeader, #sectionTwoHeader, #sectionThreeHeader, #workingHoursHeader, 
+#sectionFourHeader, #sectionFiveHeader, #sectionSixHeader, #sectionFourInfo, #sectionSevenHeader{
+    font-family: 'Average Sans', sans-serif;
+}
+
+#bannerHeader, #sectionOneMainHeader, #sectionTwoMainHeader, #sectionThreeMainHeader{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#paraOne, #paraTwo, #paraThree, #workHoursListContainer, #paraFour, #paraFive, #paraSix{
+    font-family: 'Rubik', sans-serif;
+}
+
+.workingHoursAnimation {
+    opacity: 1;
+    transition: 500ms ease-in;
+    transform: translateY(0px);
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ADACB5;
+    border-radius: 5px;
+}
